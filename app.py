@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 # 🧩 Load and preprocess dataset
 # ----------------------------------------
 try:
-    df = pd.read_csv("../DataSets/Nifty/Stocks_2025.csv")
+    df = pd.read_csv("Stocks_2025.csv")
 except FileNotFoundError:
     st.error("❌ CSV file not found. Please check the file path: '../DataSets/Nifty/Stocks_2025.csv'")
     st.stop()
